@@ -33,3 +33,6 @@ policies:
     manifests:
       - path: policy2/install-gatekeeper.yaml
       - path: policy2/gatekeeper.yaml
+  - name: policy-kyverno-require-labels
+    manifests:
+      - path: policy3/kyverno.yaml
