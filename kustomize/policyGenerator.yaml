@@ -9,7 +9,7 @@ policyDefaults:
   placement:
     name: demo-placement-rule
     clusterSelectors:
-      vendor: OpenShift
+      name: policy-governance
   remediationAction: enforce
   severity: medium
 policies:
